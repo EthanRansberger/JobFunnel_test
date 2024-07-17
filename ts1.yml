@@ -1,0 +1,23 @@
+search:
+  keywords: ["software engineer", "developer", "full stack", "backend"]
+  locations: ["New York, NY", "San Francisco, CA", "Austin, TX", "Seattle, WA"]
+  radius: 50
+  days_ago: 7
+  providers: ["indeed", "monster", "glassdoor", "linkedin"]
+  max_listings: 100
+  sort_by: "date"  # Options: "relevance", "date"
+  exclude_keywords: ["senior", "lead"]
+  exclude_locations: ["remote"]
+  salary_min: 60000
+  salary_max: 120000
+  full_time: true
+  part_time: false
+  contract: false
+  internship: false
+  temporary: false
+  remote: true
+output:
+  path: "./job_listings"
+  format: "csv"  # Options: "csv", "json"
+  deduplicate: true
+  save_raw: false

@@ -24,6 +24,7 @@ search:
   providers:
     - INDEED
     - MONSTER
+    - GLASSDOOR
 
   # Region that we are searching for jobs within:
   province_or_state: "ON"  # NOTE: this is generally 2 characters long.
